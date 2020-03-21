@@ -5,7 +5,7 @@
 + [浅谈ASI(分号自动插入)](https://github.com/zjlyyq/daily_life/blob/master/浅谈ASI(分号自动插入).md)
 
 + [windows使用技巧](https://github.com/zjlyyq/daily_life/blob/master/windows使用技巧.md)
-+ [Windows Termnal](https://github.com/zjlyyq/daily_life/blob/master/Windows Termnal.md)
++ [Windows_Termnal](https://github.com/zjlyyq/daily_life/blob/master/Windows_Termnal.md)
 + [视频编码和封装](https://github.com/zjlyyq/daily_life/blob/master/视频编码和封装.md)
 
 
