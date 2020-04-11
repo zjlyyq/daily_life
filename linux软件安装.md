@@ -1,3 +1,5 @@
+
+
 ### 软件包管理器
 
 包管理器是方便软件安装、卸载、解决软件依赖关系的重要工具。
@@ -150,6 +152,49 @@ yum配置文件
   ```
 
 ### 源代码编译安装
+
+以`redis`安装为例:
+
+1. 下载redis源代码包
+
+   ```sh
+   wget http://download.redis.io/releases/redis-5.0.4.tar.gz
+   ```
+
+2. 解压
+
+   ```sh
+   tar -xzf redis-5.0.4.tar.gz
+   ```
+
+3. project
+
+   ```sh
+   redis-5.0.4
+   ├── 00-RELEASENOTES
+   ├── BUGS
+   ├── CONTRIBUTING
+   ├── COPYING
+   ├── deps
+   ├── INSTALL
+   ├── Makefile
+   ├── MANIFESTO
+   ├── README.md
+   ├── redis.conf
+   ├── runtest
+   ├── runtest-cluster
+   ├── runtest-sentinel
+   ├── sentinel.conf
+   ├── src
+   ├── tests
+   └── utils
+   ```
+
+4. 运行`make`
+
+   此步骤可能会出现报错，大多数是缺乏`gcc`或`g++`导致。安装即可。
+
+5. 还是报错，`make MALLOC=libc`
 
 ### 内核升级
 
