@@ -48,6 +48,12 @@ Snipaste
 
 截图软件，支持自定义截图后续动作。例如：自动保存，自动复制，贴图在编辑等。
 
+#### 编程类
+
+[nvm-windows](https://github.com/coreybutler/nvm-windows/releases)
+
+Node版本管理工具Windows版，方面管理`NodeJs` 的版本。
+
 
 
 
